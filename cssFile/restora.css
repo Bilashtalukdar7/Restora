@@ -1,0 +1,1119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin:0px;padding:0px}
+.Container{
+        width: 1190px;
+        margin:auto
+}
+    
+.titleLogo {
+     padding-top: 12px;
+        width: 576px;
+        float: left;
+    }
+    
+    .titleBarContent {
+        /* float: left; */
+        overflow: hidden;
+    }
+    
+
+.titleBarContent ul li {
+        float: left;
+        overflow: hidden;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15px 0px;
+        padding-right: 40px;
+    }
+
+.homeSliderBg {
+        background: #201A19;
+        color: white;
+    }
+    
+.titleBar {
+        padding: 10px 0px;
+    }
+.homeSliderImage {
+        background: url(../Images/06.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+}
+.homeSliderContent {
+    text-align: center;
+}
+
+.homeSliderContent h1 {
+    font-size: 100px;
+    color: whitesmoke;
+    font-weight: 100;
+    padding-top: 280px;
+}
+
+.homeSliderContent span {
+    color: ghostwhite;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    display: block;
+    padding: 30px 0px;
+}
+
+.homeSliderContent button {
+    width: 200px;
+    border: 3px solid whitesmoke;
+    /* font-size: 30px; */
+    background: transparent;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.homeSliderContent button a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 17px 10px;
+    font-weight: 900;
+    color: white;
+}
+.discover{position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;}
+.discoverWrapper {
+        height: 600px;
+       
+        margin-top: -80px;
+}
+.firstContent {
+    height: 50%;
+    overflow: hidden;
+}
+
+.title {
+    width: 70%;
+    height: 100%;
+    float: left;
+    /* padding-bottom: 9px; */
+}
+
+.titleImg {
+    float: left;
+    width: 30%;
+    height: 101%;
+}
+
+.titleImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.title h2 {
+    color: darkred;
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.firstContent {
+    background: white;
+}
+
+.title p {
+    width: 88%;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title button {
+    width: 160px;
+    height: 42px;
+    padding: 8px 12px;
+    background:darkred;
+    border-radius: 3px;
+
+    /* font-size: 25px; */
+    border: none;
+    margin-left: 30px;
+    margin-top: 29px;
+}
+
+.title button a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.LastContent {
+    overflow: hidden;
+    float: left;
+    height: 50%;
+    width: 100%;
+}
+
+.lastImg {
+    width: 70%;
+    float: left;
+}
+
+.lastImg img {
+    width: 100%;
+}
+
+.Lastdesk {
+    overflow: hidden;
+    /* padding-top: 10px; */
+    /* padding-left: 30px; */
+    padding: 33px 30px;
+}
+
+.Lastdesk h2 {
+    color: darkred;
+    padding: 13px 0px;
+}
+
+.Lastdesk p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 32px;
+    color: #949292;
+}
+
+.Lastdesk button {
+    width: 150px;
+    height: 42px;
+    border: 2px solid darkred;
+    border-radius: 1px;
+    background: transparent;
+}
+
+.Lastdesk button {
+    font-size: 16px;
+    font-weight: 700;
+    /* color: whitesmoke; */
+}
+
+.Lastdesk button a {
+    color: darkred;
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.LastContent {
+    overflow: hidden;
+    float: left;
+    height: 50%;
+    width: 100%;
+}
+
+.lastImg {
+    width: 70%;
+    float: left;
+}
+
+.lastImg img {
+    width: 100%;
+}
+
+.Lastdesk {
+    overflow: hidden;
+    /* padding-top: 10px; */
+    /* padding-left: 30px; */
+    padding: 33px 30px;
+}
+
+.Lastdesk h2 {
+    color: darkred;
+    padding: 13px 0px;
+}
+
+.Lastdesk p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 32px;
+    color: #949292;
+}
+
+.Lastdesk button {
+    width: 150px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    border:2px solid darkred;
+}
+
+.Lastdesk button {
+    font-size: 16px;
+    font-weight: 700;
+    /* color: whitesmoke; */
+}
+
+.Lastdesk button a {
+    color: darkred;
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.discoverWrapper {
+    box-shadow: 0px 1px 8px 1px blue;
+}
+section.today\'sDeal {
+    margin: 100px 0px;
+}
+
+.DcW {
+    float: left;
+    width: 50%;
+    /* background: wheat; */
+}
+.dealsContent h2 {
+    text-align: center;
+    padding: 48px 0px;
+    font-size: 35px;
+    color: darkred;
+}
+
+.dealsContentWrapper {}
+
+.dealsContent {
+    padding: 0px 13px;
+}
+
+.dealsContent span {
+}
+
+.dealsContent p {
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 0px;
+    color: #888888;
+}
+
+.dealsImg {
+    padding: 55px 0px;
+}
+
+.dealImg1 {
+    text-align: center;
+}
+
+.introduce {
+    /* overflow: hidden; */
+    width: 77%;
+}
+
+.introduceImg {
+    width: 103px;
+    height: 101px;
+    /* float: left; */
+}
+
+.introduceImg h2 {
+    float: left;
+}
+.intCont {
+    margin: -76px 108px;
+    width: 180px;
+}
+
+.introduce {
+    margin-left: 135px;
+}
+
+.footerImg{
+    
+    background: linear-gradient(#000000e8,#111111f0), url(../Images/04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+}
+.footerContent {
+    width: 100%;
+    height: 320px;
+}
+
+.footerLast {
+    /* padding-bottom: 0px; */
+    height: 40px;
+    background: #000000de;
+    color: #fff;
+    text-align: center;
+}
+.footerLast p {
+    padding: 11px 0px;
+}
+.footerBox1 {
+    float: left;
+    width: 14%;
+    padding: 89px 0px;
+}
+
+.footerBox1 img {
+    width: 100%;
+}
+.footerBox1 {
+    color: #fff;
+}
+
+.footerBox2 {
+    color: #fff;
+    float: left;
+    width: 20%;
+    padding: 106px 60px;
+}
+
+.footerBox2 h2 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.footerBox2 p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footerBox2 span {
+    padding-left: 47px;
+}
+
+
+.footerBox3 {
+    color: #fff;
+    float: left;
+    width: 20%;
+    padding: 106px 0px;
+    padding-left: 69px;
+}
+
+.footerBox3 h2 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.footerBox3 p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footerBox3 span {
+    padding-left: 47px;
+}
+section.resturant {
+        margin: 100px 0px;
+}
+
+.gallaryTitle {
+    text-align: center;
+    font-size: 24px;
+    color: darkred;
+    padding-bottom: 30px;
+}
+
+
+.firstGallary {
+    width: 100%;
+    height: 250px;
+}
+
+.GallaryOne {
+    float: left;
+    padding-right: 5%;
+    width: 30%;
+    height: 100%;
+}
+.GallaryOne img {
+    width: 100%;
+    height: 100%;
+}
+
+.GallaryOnel {
+    width: 30%;
+    height: 250px;
+    float: left;
+}
+
+.GallaryOnel img {
+    width: 100%;
+    height: 100%;
+}
+.firstGallaryWrapper {
+    margin: 60px 0px;
+}
+.bgImage{
+    background:linear-gradient(#00000075,#00000082), url(../Images/011.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: 100%;
+}
+.dailyMeal {
+    float: left;
+    color: #fff;
+    width: 22%;
+    text-align: center;
+    padding: 85px 0px;
+    padding-right: 4%;
+}
+
+.dailyMeal i {
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.dailyMeal h3 {
+    padding: 10px 0px;
+}
+
+.dailyMeal h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+.dailyMealL {
+    float: left;
+    color: #fff;
+    width: 22%;
+    text-align: center;
+    padding: 85px 0px;
+    
+}
+
+.dailyMealL i {
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.dailyMealL h3 {
+    padding: 10px 0px;
+}
+
+.dailyMealL h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+.bgOpenningImg{
+    background:url(../Images/02\ 2\(1\).jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: 100%;
+}
+section.openningTime {
+    margin: 100px 0px;
+}
+
+.openingTime {
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+}
+
+.openingTime h1 {
+    font-size: 50px;
+    font-family: -webkit-pictograph;
+    font-weight: lighter;
+    padding: 34px 0px;
+}
+
+.openingTime {
+    padding: 40px 0px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.openingTime button {
+    background: transparent;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.openingTime button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button.btnBook {
+    margin: 40px 0px;
+}
+
+.openingTime button:hover {
+    background: #ff5200;
+}
+.ourMostLoveDishesTitle {
+    color: darkred;
+    font-size: 25px;
+    text-align: center;
+    padding: 24px 0px;
+}
+.platerFirst {
+    width: 23%;
+    padding-right: 2%;
+    float: left;
+    height: 52%;
+    /* overflow: hidden; */
+}
+
+.platerWrapper {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.biskriaPlater {
+    box-shadow: 0px -1px 5px 1px;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.biskriaPlaterImg {
+    height: 75%;
+}
+
+.biskriaPlaterImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.biskriaContent {
+    width: 185px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.biskriaContent h3 {
+    font-size: 20px;
+    padding: 5px 0px;
+    color:#595959fc
+}
+
+.biskriaContent p {
+    font-weight: 700;
+    color: #535353db;
+}
+
+.doller {
+    float: left;
+    margin-top: 21px;
+    margin-left: 28px;
+    font-size: 22px;
+    font-weight: 700;
+    color: darkred;
+}
+.platerWrapperOne {
+    width: 100%;
+    height: 600px;
+}
+.doller p {
+    margin-left: -14px;
+}
+.ourMostLoveDishesTitle h1 {
+    margin-bottom: 20px;
+}
+.menuTitle {
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+}
+
+.menuTitle h1 {
+    margin: 40px 0px;
+}
+.menuFirstTime {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+    width: 48%;
+    /* height: 160px; */
+    overflow: hidden;
+}
+
+.menuFirstImg {}
+
+.menuWrapper {
+    width: 100%;
+    margin: 50px 0px;
+    height: 720px;
+}
+
+.menuFirstImg {width: 25%;height: 100%;float: left;}
+
+.menuFirstImg img {
+    width: 100%;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.menuFirstDesk {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.deskTitle {
+    padding-left: 10px;
+    overflow: hidden;
+    width: 73%;
+}
+
+.deskTitle h2 {
+    /* margin-bottom: 10px; */
+    width: 288px;
+    display: inline;
+}
+
+.deskTitle span {
+    padding: 0px 64px;
+    font-size: 25px;
+    font-weight: 600;
+    color: darkred;
+}
+
+.deskTitle hr {
+    padding-top: 10px;
+    background: darkcyan;
+}
+
+.deskTitle p {
+    padding: 36px 0px;
+    /* font-size: 22px; */
+    width: 100%;
+}
+.reserveTitle {
+    text-align: center;
+    color: darkred;
+    padding-bottom: 35px;
+}
+
+.reserveLeft {
+    float: left;
+    width: 50%;
+}
+
+.reserveLeft img {
+    float: left;
+    width: 100%;
+}
+
+.reserveWrapper {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.reserveRight {
+    overflow: hidden;
+}
+.reserveRight {
+    padding: 20px 0px;
+    padding-left: 20px;
+}
+
+.reserveRight {
+    float: left;
+    width: 46%;
+}
+
+.inputBox ul li {list-style: none;}
+
+.inputBox ul li input:first-child {
+    width: 100%;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid darkred;
+    outline: none;
+    font-size: 15px;
+}
+
+.inputBox ul li {
+    padding-bottom: 32px;
+    /* border: none; */
+}
+
+
+.inputBox ul li:nth-child(2) {
+    width: 46%;
+    float: left;
+}
+
+.inputBox ul li:nth-child(3) {
+    width: 50%;
+    float: left;
+    padding-left: 17px;
+}
+
+.inputBox ul li:nth-child(4) {
+    width: 46%;
+    float: left;
+}
+
+.inputBox ul li:nth-child(5) {
+    width: 50%;
+    float: left;
+    padding-left: 18px;
+}
+
+.reservebtn {
+    width: 100%;
+    float: left;
+}
+
+.reservebtn button {
+    margin-top: 13px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    background: darkred;
+    border-radius: 4px;
+    float: left;
+}
+
+.reservebtn button a {
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* border-radius: 15px; */
+}
+
+.reservebtn p {
+    width: 53%;
+    float: left;
+    font-size: 20px;
+    padding: 23px 0px;
+    padding-left: 97px;
+    color: darkred;
+}
+.reservebtn button:hover {
+    background: #ff5200;
+}
+section.chefs {
+    margin-bottom: 100px;
+}
+
+.chefsTitle {
+    text-align: center;
+    color: darkred;
+    font-size: 27px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.chefsWrapper {
+    width: 100%;
+    height: 450px;
+}
+
+.FirstChefs {
+    overflow: hidden;
+    width: 23%;
+    float: left;
+}
+
+.\31 stChefs {
+    width: 100%;
+}
+
+.\31 stChefs img {
+    width: 100%;
+}
+
+.chefsDetails h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+hr {}
+
+.chefsDetails hr {
+    width: 158px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.chefsDetails p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    word-spacing: 7px;
+}
+
+.chefsDetails ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 10px;
+    font-size: 25px;
+    /* padding-left: 19px; */
+}
+
+.chefsDetails ul li:first-child {
+    padding-left: 49px;
+}
+
+.FirstChefs:hover {
+    background: #ddd;
+    border: 1px solid darkred;
+    box-shadow: 1px 1px 1px 1px;
+}
+.ourLatest.ItemTitle {
+    text-align: center;
+    color: darkred;
+    font-size: 23px;
+    padding-bottom: 31px;
+}
+
+section.LatestNews {
+    margin-bottom: 100px;
+}
+
+.FirstLatestNews {
+    width: 28%;
+    float: left;
+    padding-right: 95px;
+    overflow: hidden;
+}
+
+.LatestNewsImg {
+    width: 100%;
+    height: 262px;
+}
+
+.LatestNewsImg img {
+    width: 100%;
+}
+
+.ourLatesNewsContent {
+    /* text-align: center; */
+    padding-left: 10px;
+    color: #535353;
+}
+
+.ourLatesNewsContent p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.ourLatesNewsContent {
+    background: #80808021;
+}
+
+.ourLatesNewsContent h2 {
+    padding-top: 16px;
+}
+
+
+.LastLatestNews {
+    width: 28%;
+    float: left;
+}
+
+.LatestNewsImg {
+    width: 100%;
+    height: 221px;
+}
+
+.LatestNewsImg img {
+    width: 100%;
+}
+
+.ourLatesNewsContent {
+    /* text-align: center; */
+    padding-left: 10px;
+    color: #535353;
+}
+
+.ourLatesNewsContent p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.ourLatesNewsContent {
+    background: #80808021;
+}
+
+.ourLatesNewsContent h2 {
+    padding-top: 16px;
+}
+.OurLatestNewsWrapper {
+    overflow: hidden;
+}
+.reviewTitle {
+    text-align: center;
+    font-size: 21px;
+    color: darkred;
+    padding-bottom: 120px;
+}
+
+.ClientBox {
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.clientBoxImg {
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    margin-top: -;
+}
+
+.clientBoxImg {}
+
+.clientBoxImg img {
+    border-radius: 100%;
+    width: 100%;
+    margin-top: -56px;
+}
+
+.ClientsReviewWrapper {
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+
+.clientContent {
+    text-align: center;
+}
+
+.clientContent h2 {
+    padding: -7px 0px;
+    color: #ff172c;
+}
+
+
+
+.clientContent p {
+    padding-bottom: 60px;
+}
+section.maps {
+    width: 100%;
+    height: 400px;
+    /* overflow: hidden; */
+    margin-bottom: 100px;
+}
+
+.mapsWrapper {
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 400px;
+}
+
+.mapsWrapper iframe {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black,black);
+    /* overflow: hidden; */
+    /* background: linear-gradient(45deg, #000000f7, transparent); */
+}
+.ContactUsBox {
+    /* margin-top: -220px; */
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid; */
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+.contactUsTitle {
+    text-align: center;
+}
+
+.contactUsTitle h2 {
+    color: darkred;
+    font-size: 33px;
+    padding-bottom: 10px;
+}
+
+.contactUsTitle p {
+    color: #363636;
+}
+
+.inputBoxes {
+    padding: 10px 45px;
+}
+
+.leftBoxes {
+    width: 50%;
+    float: left;
+}
+
+.leftBoxes ul li {
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.leftBoxes ul li input {
+    border-color: #f0f0f070;
+    width: 95%;
+    height: 38px;
+}
+
+.leftBoxes ul li input {padding-left: 11px;/* color: red; */}
+
+.leftBoxes ul li {
+}
+
+.RightBoxes {
+    overflow: hidden;
+}
+
+.RightBoxes input {
+    width: 99%;
+    height: 152px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sendBtn {
+    width: 160px;
+    margin: auto;
+    height: 44px;
+}
+
+.RightBoxes input {
+    outline: none;
+    border-color: #dddddd4d;
+}
+
+.sendBtn button {
+    width: 100%;
+    background: darkblue;
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+}
+
+
+.sendBtn button a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sendBtn button:hover {
+    background: #ff5200;
+}
